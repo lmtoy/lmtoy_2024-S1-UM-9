@@ -17,16 +17,13 @@ on["goods-n-130"] = \
    -112388, 112389, 112390,]
 
 on["goods-n-2592"] = \
- [ 112392, 112393, 112394, 112397, 112398, 112399, 112401, 112402,
-   112403,]
-
+ [ 112392, 112393, 112394, 112397, 112398, 112399, 112401, 112402, 112403, 113225, 113226, 113227, 113887, 113888, 113889, 113891, 113892, 113893, 113895, 113896, 113897, 114466,]
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 
 pars1["goods-n-130"] = "speczoom=89,4 badcb=0/5"
 pars1["goods-n-2592"] = ""
-
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
 
