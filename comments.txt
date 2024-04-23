@@ -1,2 +1,8 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
+111610 QAFAIL: only 1 working board band 3
+111616 QAFAIL: bad chassis 3
+111627 QAFAIL: bad chassis 3
+112388 QAFAIL: bad chassis 3
+111611_112390 [14/18] No clear detection, removed bad chassis/board 0/5
+
