@@ -4,5 +4,7 @@
 111616 QAFAIL: bad chassis 3
 111627 QAFAIL: bad chassis 3
 112388 QAFAIL: bad chassis 3
+117197 QAFAIL: bad chassis 3
 111611_112390 [14/18] No clear detection, removed bad chassis/board 0/5
 112392_114466 [22/22] No clear detection; recommend removing obsnum 114466 to improve chassis 3 performance in combination
+114470_117507 [23/24] No clear detection; recommend removing obsnums 117201, 117202 to improve chassis 0 performance in combination
