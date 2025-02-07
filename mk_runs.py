@@ -23,6 +23,10 @@ on["goods-n-14914"] = \
    117199, 117201, 117202, 117203, 117206, 117207, 117208, 117497,
    117498, 117499, 117501, 117502, 117503, 117505, 117506, 117507,]
 
+on["goods-n-18911"] = \
+ [ 126737, 126738, 126739,]
+
+
 on["goods-n-2592"] = \
  [ 112392, 112393, 112394, 112397, 112398, 112399, 112401, 112402,
    112403, 113225, 113226, 113227, 113887, 113888, 113889, 113891,
@@ -31,15 +35,17 @@ on["goods-n-2592"] = \
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 
-pars1["goods-n-130"] = "speczoom=89,4 badcb=0/5"
+pars1["goods-n-130"]   = "speczoom=89,4 badcb=0/5"
 pars1["goods-n-14914"] = ""
-pars1["goods-n-2592"] = ""
+pars1["goods-n-18911"] = ""
+pars1["goods-n-2592"]  = ""
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
 
-pars2["goods-n-130"] = ""
+pars2["goods-n-130"]   = ""
 pars2["goods-n-14914"] = ""
-pars2["goods-n-2592"] = ""
+pars2["goods-n-18911"] = ""
+pars2["goods-n-2592"]  = ""
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2, None, sys.argv)
