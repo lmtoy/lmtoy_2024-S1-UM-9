@@ -17,6 +17,9 @@ on["goods-n-130"] = \
   -112388, 112389, 112390,
    116742, 116743, 116744, 116746, 116747, 116748,]
 
+on["goods-n-18911"] = \
+ [ -126737, 126738, 126739, 126742, 126743, 126744, 126746, -127247, -127248, 127250,
+  127251, 127252, 127256, 127257, 127258, 127260, 127261, 127262]
 
 on["goods-n-14914"] = \
  [ 114470, 114471, 114472, 117193, 117194, 117195,-117197, 117198,
@@ -34,12 +37,14 @@ pars1 = {}
 pars1["goods-n-130"] = "speczoom=89,4 badcb=0/5"
 pars1["goods-n-14914"] = ""
 pars1["goods-n-2592"] = ""
+pars1["goods-n-18911"] = ""
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
 
 pars2["goods-n-130"] = ""
 pars2["goods-n-14914"] = ""
 pars2["goods-n-2592"] = ""
+pars2["goods-n-18911"] = ""
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2, None, sys.argv)
