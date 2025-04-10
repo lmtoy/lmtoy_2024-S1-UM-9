@@ -1,10 +1,26 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
-111610 QAFAIL: only 1 working board band 3
-111616 QAFAIL: bad chassis 3
-111627 QAFAIL: bad chassis 3
-112388 QAFAIL: bad chassis 3
-117197 QAFAIL: bad chassis 3
+111610 QAFAIL: only 1 working board band 3	# qagrade=-2
+111616 QAFAIL: bad chassis 3	#qagrade=-2
+111627 QAFAIL: bad chassis 3	#qagrade=-2
+112388 QAFAIL: bad chassis 3	#qagrade=-2
+117197 QAFAIL: bad chassis 3	#qagrade=-2
 111611_112390 [14/18] No clear detection, removed bad chassis/board 0/5
 112392_114466 [22/22] No clear detection; recommend removing obsnum 114466 to improve chassis 3 performance in combination
 114470_117507 [23/24] No clear detection; recommend removing obsnums 117201, 117202 to improve chassis 0 performance in combination
+
+
+#18911
+126737	QAFAIL: bad chassis 2, submitted for re-observation      # qagrade=-2
+127247	QAFAIL: bad chassis 1, submitted for re-observation      # qagrade=-2
+127248  QAFAIL: bad chassis 1, submitted for re-observation      # qagrade=-2
+
+126738 chassis 2 suspect, lower QA grade #qagrade = 2
+126739 chassis 2 suspect, lower QA grade #qagrade = 2
+
+127243 removed bad cb 2/1 #badcb=2/1
+127246 removed bad cb 1/0, 3/3 #badcb=1/0,3/3
+127251 removed bad cb 2/1 #badcb=2/1
+127252 removed bad cb 2/1 #badcb=2/1
+127258 removed bad cb 0/0 #badcb=0/0
+127262 removed bad cb 2/1 #badcb=2/1
